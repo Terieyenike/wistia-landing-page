@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Daily Codes</title>
+    <link rel="stylesheet" href="./style.css" />
+
+  </head>
+  <body>
+    <div class="hero">
+    <header>
+        <p class="logo">The Daily Codes</p>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button class="med__button">Contact</button></a>
+        <div class="mobile__menu">
+            <input id="toggle" type="checkbox" />
+            <label class="hamburger" for="toggle">
+                <div class="hamburger__top"></div>
+                <div class="hamburger__meat"></div>
+                <div class="hamburger__bottom"></div>
+            </label>
+            <div class="hamburger__nav">
+                <div class="hamburger__nav--wrapper">
+                    <nav class="hamburger__nav--items">
+                        <a href="#">Services</a>
+                        <a href="#">Projects</a>
+                        <a href="#">About</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+      <!--Hero section-->
+      <section class="hero__content">
+        <div class="hero__text">
+            <p class="hero__subtitle">Sunrise upon the Lagos City</p>
+            <h1>Epic form to begin the day</h1>
+            <div class="play__section">
+                <div id="play" class="play__button">
+                    <img src="./images/play.svg" alt="Play Button">
+                </div>
+                <p>Watch Why We're Better</p>
+            </div>
+        </div>
+        <div class="hero__video">
+            <script src="https://fast.wistia.com/embed/medias/o21yc8lutk.jsonp" async></script>
+            <script src="https://fast.wistia.com/assets/external/E-v1.js"
+                async></script>
+            <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                    <div class="wistia_embed wistia_async_o21yc8lutk videoFoam=true" style="height:100%;position:relative;width:100%">
+                        <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/o21yc8lutk/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+                                alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
