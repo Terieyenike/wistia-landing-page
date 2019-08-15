@@ -27,3 +27,5 @@ Follow me on social
 [Github](https://github.com/terieyenike)
 
 Follow the link to view this project, [here](https://wistialandingpage.netlify.com/)
+
+Source code on codepen.io, [here](https://codepen.io/eyenike/pen/oNvxqNx)
